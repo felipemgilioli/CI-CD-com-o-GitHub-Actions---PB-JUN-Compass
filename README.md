@@ -13,9 +13,9 @@ A pipeline de CI/CD está configurada para:
 Arquitetura do Projeto
 A solução utiliza uma abordagem com dois repositórios para separar o código da aplicação das configurações de deploy, seguindo os princípios do GitOps.
 
-Repositório da Aplicação (hello-app): Contém o código da aplicação FastAPI, o Dockerfile e o workflow do GitHub Actions responsável pelo CI.
+Repositório da Aplicação [hello-app](https://github.com/felipemgilioli/hello-app): Contém o código da aplicação FastAPI, o Dockerfile e o workflow do GitHub Actions responsável pelo CI.
 
-Repositório de Manifestos (hello-manifests): Contém os manifestos Kubernetes (Deployment e Service) que o ArgoCD utiliza como "fonte da verdade" para o deploy no cluster.
+Repositório de Manifestos [hello-manifests](https://github.com/felipemgilioli/hello-manifests): Contém os manifestos Kubernetes (Deployment e Service) que o ArgoCD utiliza como "fonte da verdade" para o deploy no cluster.
 
 ## 🏛️ Diagrama da Arquitetura
 Aqui você pode adicionar um diagrama simples que ilustra o fluxo do processo de CI/CD.
