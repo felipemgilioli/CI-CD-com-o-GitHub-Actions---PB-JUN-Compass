@@ -120,8 +120,6 @@ Crie um novo aplicativo, conectando-o ao seu repositório hello-manifests.
 
 Configure o caminho para os arquivos de manifesto e o namespace de destino no seu cluster Kubernetes.
 
-[COLE A IMAGEM DA CONFIGURAÇÃO DO APP NO ARGOCD AQUI]
-
 Etapa 4 – Testando o Fluxo de CI/CD
 Faça uma alteração no arquivo main.py (por exemplo, mude a mensagem "Hello World").
 
